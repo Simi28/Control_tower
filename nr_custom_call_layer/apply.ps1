@@ -1,0 +1,1 @@
+terraform apply -var-file="./tfvars/parsing_rules/allparsingrules.tfvars" 
