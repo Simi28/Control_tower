@@ -38,4 +38,5 @@ data "newrelic_test_grok_pattern" "grok" {
   }
   grok      = each.value.grok
   log_lines = each.value.test_log_lines
+  account_id = try(each.value.account_id, var.account_id)
 }
