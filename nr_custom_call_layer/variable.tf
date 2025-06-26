@@ -17,7 +17,7 @@ variable "custom_parsing_rules" {
   type = any
 }
 
-variable "grok_validation_enabled" {
-  type = any
-}
+# variable "grok_validation_enabled" {
+#   type = any
+# }
 
